@@ -21,13 +21,14 @@ public class ArrayUtil {
 
 
         //3 - Տպել վերջին էլեմենտը
-        System.out.println("Last element: " + (numbers.length - 1));
+
+        System.out.println("Last element: " + numbers[numbers.length - 1]);
 
         System.out.println("________");
 
 
         //4 -  Տպել զանգվածի երկարությունը
-        System.out.println("Array length : " + numbers.length);
+        System.out.println("Array length: " + numbers.length);
 
         System.out.println("________");
 
@@ -66,7 +67,7 @@ public class ArrayUtil {
         //8 - Հաշվել կենտ թվերի քանակը
         int oddCount = 0;
         for (int i = 0; i < numbers.length; i++) {
-            if (numbers[i] % 2 == 1) {
+            if (numbers[i] % 2 != 0) {
                 oddCount++;
             }
         }
