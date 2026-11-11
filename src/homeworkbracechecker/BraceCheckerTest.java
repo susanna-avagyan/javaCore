@@ -33,6 +33,5 @@ public class BraceCheckerTest {
         BraceChecker braceChecker9 = new BraceChecker("(()");
         braceChecker9.check();
 
-
     }
 }

@@ -33,7 +33,7 @@ public class DynamicArray {
     //    նոր զանգվածի հետ։
     private void extend() {
         int[] newArray = new int[array.length + 10];
-        for (int i = 0; i < array.length; i++) {
+        for (int i = 0; i < size; i++) {
             newArray[i] = array[i];
         }
         array = newArray;

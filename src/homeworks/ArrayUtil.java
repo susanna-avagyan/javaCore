@@ -83,7 +83,7 @@ public class ArrayUtil {
 
         System.out.println("________");
 
-        //10 ??/— Հաշվել միջին թվաբանականը
+        //10 /— Հաշվել միջին թվաբանականը
         double average = (double) sum / numbers.length;
 
         System.out.println(average);
