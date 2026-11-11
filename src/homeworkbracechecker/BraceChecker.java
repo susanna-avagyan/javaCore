@@ -45,6 +45,7 @@ public class BraceChecker {
             return;
         }
 
+
         System.out.println("No errors");
     }
 }
